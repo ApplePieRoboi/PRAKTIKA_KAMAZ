@@ -1,22 +1,22 @@
 #   СБОРКА
 
-из корневой папки:
-``` source /opt/ros/foxy/setup.bash ```
-``` colcon build --symlink-install ```
+из корневой папки: <br />
+``` source /opt/ros/foxy/setup.bash ``` <br />
+``` colcon build --symlink-install ``` <br />
 
 #   ЗАПУСК
 
-1-й терминал
-Запускаем робота в rviz и gazebo
-``` source /opt/ros/foxy/setup.bash ```
-``` source install/setup.bash ```
-``` bash ~/ros2_ws/src/mycobot_ros2/mycobot_bringup/scripts/mycobot_280_gazebo.sh ```
+1-й терминал <br />
+Запускаем робота в rviz и gazebo <br />
+``` source /opt/ros/foxy/setup.bash ``` <br />
+``` source install/setup.bash ``` <br />
+``` bash ~/ros2_ws/src/mycobot_ros2/mycobot_bringup/scripts/mycobot_280_gazebo.sh ``` <br />
 
-2-й терминал
-Запускаем файл arm_gripper_loop_controller, который контролирует работу 6dof
-``` source /opt/ros/foxy/setup.bash ```
-``` source install/setup.bash ```
-``` ros2 run mycobot_system_tests arm_gripper_loop_controller ```
+2-й терминал <br />
+Запускаем файл arm_gripper_loop_controller, который контролирует работу 6dof <br />
+``` source /opt/ros/foxy/setup.bash ``` <br />
+``` source install/setup.bash ``` <br />
+``` ros2 run mycobot_system_tests arm_gripper_loop_controller ``` <br />
 
 # CPP code explanation:
 
