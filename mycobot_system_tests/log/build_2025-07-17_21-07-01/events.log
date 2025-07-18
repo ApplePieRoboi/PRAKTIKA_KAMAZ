@@ -1,0 +1,325 @@
+[0.000000] (-) TimerEvent: {}
+[0.007166] (mycobot_system_tests) JobQueued: {'identifier': 'mycobot_system_tests', 'dependencies': OrderedDict()}
+[0.007214] (mycobot_system_tests) JobStarted: {'identifier': 'mycobot_system_tests'}
+[0.100390] (mycobot_system_tests) JobProgress: {'identifier': 'mycobot_system_tests', 'progress': 'cmake'}
+[0.101470] (-) TimerEvent: {}
+[0.118927] (mycobot_system_tests) Command: {'cmd': ['/usr/bin/cmake', '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests', '-DCMAKE_INSTALL_PREFIX=/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests'], 'cwd': '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'my_note', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/my_note', 'OLDPWD': '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/scripts', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2195', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'my_note', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'my_note', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu24:@/tmp/.ICE-unix/2139,unix/ubuntu24:/tmp/.ICE-unix/2139', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bfc99c51_832f_4cbc_9065_7fa2c33095a4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O50S92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.202479] (-) TimerEvent: {}
+[0.309659] (-) TimerEvent: {}
+[0.418972] (-) TimerEvent: {}
+[0.527579] (-) TimerEvent: {}
+[0.564911] (mycobot_system_tests) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.629074] (-) TimerEvent: {}
+[0.733138] (-) TimerEvent: {}
+[0.851971] (-) TimerEvent: {}
+[0.950877] (mycobot_system_tests) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.955711] (-) TimerEvent: {}
+[1.077242] (-) TimerEvent: {}
+[1.120988] (mycobot_system_tests) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.160124] (-) TimerEvent: {}
+[1.272176] (-) TimerEvent: {}
+[1.382187] (-) TimerEvent: {}
+[1.485036] (-) TimerEvent: {}
+[1.590396] (-) TimerEvent: {}
+[1.692740] (-) TimerEvent: {}
+[1.803289] (-) TimerEvent: {}
+[1.905807] (-) TimerEvent: {}
+[1.994014] (mycobot_system_tests) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.006734] (-) TimerEvent: {}
+[2.034089] (mycobot_system_tests) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.034230] (mycobot_system_tests) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.034292] (mycobot_system_tests) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.117907] (-) TimerEvent: {}
+[2.121854] (mycobot_system_tests) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.218399] (-) TimerEvent: {}
+[2.324794] (-) TimerEvent: {}
+[2.425507] (-) TimerEvent: {}
+[2.534194] (-) TimerEvent: {}
+[2.638938] (-) TimerEvent: {}
+[2.743295] (-) TimerEvent: {}
+[2.845623] (-) TimerEvent: {}
+[2.964848] (-) TimerEvent: {}
+[3.071271] (-) TimerEvent: {}
+[3.148819] (mycobot_system_tests) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.173569] (mycobot_system_tests) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.177436] (-) TimerEvent: {}
+[3.198457] (mycobot_system_tests) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.198588] (mycobot_system_tests) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.198628] (mycobot_system_tests) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[3.278188] (-) TimerEvent: {}
+[3.382488] (-) TimerEvent: {}
+[3.485231] (-) TimerEvent: {}
+[3.586759] (-) TimerEvent: {}
+[3.697331] (-) TimerEvent: {}
+[3.799307] (-) TimerEvent: {}
+[3.903961] (-) TimerEvent: {}
+[4.004822] (-) TimerEvent: {}
+[4.027934] (mycobot_system_tests) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[4.119277] (-) TimerEvent: {}
+[4.232761] (-) TimerEvent: {}
+[4.339970] (-) TimerEvent: {}
+[4.385012] (mycobot_system_tests) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[4.442352] (-) TimerEvent: {}
+[4.493599] (mycobot_system_tests) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[4.519115] (mycobot_system_tests) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[4.556486] (mycobot_system_tests) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.556637] (-) TimerEvent: {}
+[4.629982] (mycobot_system_tests) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.659958] (-) TimerEvent: {}
+[4.763282] (-) TimerEvent: {}
+[4.880972] (-) TimerEvent: {}
+[4.982972] (-) TimerEvent: {}
+[5.015651] (mycobot_system_tests) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.021807] (mycobot_system_tests) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.084928] (-) TimerEvent: {}
+[5.189690] (-) TimerEvent: {}
+[5.304465] (-) TimerEvent: {}
+[5.406048] (-) TimerEvent: {}
+[5.511304] (-) TimerEvent: {}
+[5.615550] (-) TimerEvent: {}
+[5.718306] (-) TimerEvent: {}
+[5.830705] (mycobot_system_tests) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[5.830851] (-) TimerEvent: {}
+[5.936311] (-) TimerEvent: {}
+[6.012299] (mycobot_system_tests) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[6.038453] (-) TimerEvent: {}
+[6.150779] (-) TimerEvent: {}
+[6.196089] (mycobot_system_tests) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.255816] (-) TimerEvent: {}
+[6.357163] (-) TimerEvent: {}
+[6.386089] (mycobot_system_tests) StdoutLine: {'line': b'-- Found rclcpp_action: 28.1.10 (/opt/ros/jazzy/share/rclcpp_action/cmake)\n'}
+[6.458430] (-) TimerEvent: {}
+[6.506758] (mycobot_system_tests) StdoutLine: {'line': b'-- Found control_msgs: 5.4.1 (/opt/ros/jazzy/share/control_msgs/cmake)\n'}
+[6.559798] (-) TimerEvent: {}
+[6.667792] (-) TimerEvent: {}
+[6.774268] (-) TimerEvent: {}
+[6.802072] (mycobot_system_tests) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.2 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[6.876350] (-) TimerEvent: {}
+[6.984792] (-) TimerEvent: {}
+[7.088313] (-) TimerEvent: {}
+[7.191881] (-) TimerEvent: {}
+[7.273172] (mycobot_system_tests) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[7.273325] (mycobot_system_tests) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[7.273369] (mycobot_system_tests) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[7.273405] (mycobot_system_tests) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[7.273441] (mycobot_system_tests) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[7.273474] (mycobot_system_tests) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.283517] (mycobot_system_tests) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[7.285378] (mycobot_system_tests) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[7.285435] (mycobot_system_tests) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[7.285474] (mycobot_system_tests) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.285507] (mycobot_system_tests) StdoutLine: {'line': b'-- Configuring done (7.1s)\n'}
+[7.305770] (-) TimerEvent: {}
+[7.319509] (mycobot_system_tests) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[7.321058] (mycobot_system_tests) StdoutLine: {'line': b'-- Build files have been written to: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests\n'}
+[7.397376] (mycobot_system_tests) CommandEnded: {'returncode': 0}
+[7.398791] (mycobot_system_tests) JobProgress: {'identifier': 'mycobot_system_tests', 'progress': 'build'}
+[7.398807] (mycobot_system_tests) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests', '--', '-j12', '-l12'], 'cwd': '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'my_note', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/my_note', 'OLDPWD': '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/scripts', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2195', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'my_note', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'my_note', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu24:@/tmp/.ICE-unix/2139,unix/ubuntu24:/tmp/.ICE-unix/2139', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bfc99c51_832f_4cbc_9065_7fa2c33095a4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O50S92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[7.429798] (-) TimerEvent: {}
+[7.533271] (-) TimerEvent: {}
+[7.635764] (-) TimerEvent: {}
+[7.744434] (-) TimerEvent: {}
+[7.851773] (-) TimerEvent: {}
+[7.874804] (mycobot_system_tests) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/arm_gripper_loop_controller.dir/src/arm_gripper_loop_controller.cpp.o\x1b[0m\n'}
+[7.952107] (-) TimerEvent: {}
+[8.066040] (-) TimerEvent: {}
+[8.168490] (-) TimerEvent: {}
+[8.277631] (-) TimerEvent: {}
+[8.389598] (-) TimerEvent: {}
+[8.498220] (-) TimerEvent: {}
+[8.634582] (-) TimerEvent: {}
+[8.738475] (-) TimerEvent: {}
+[8.859582] (-) TimerEvent: {}
+[8.966902] (-) TimerEvent: {}
+[9.077621] (-) TimerEvent: {}
+[9.186196] (-) TimerEvent: {}
+[9.288995] (-) TimerEvent: {}
+[9.392792] (-) TimerEvent: {}
+[9.500795] (-) TimerEvent: {}
+[9.605344] (-) TimerEvent: {}
+[9.713231] (-) TimerEvent: {}
+[9.818069] (-) TimerEvent: {}
+[9.925296] (-) TimerEvent: {}
+[10.029690] (-) TimerEvent: {}
+[10.131682] (-) TimerEvent: {}
+[10.235167] (-) TimerEvent: {}
+[10.343104] (-) TimerEvent: {}
+[10.451405] (-) TimerEvent: {}
+[10.557326] (-) TimerEvent: {}
+[10.664767] (-) TimerEvent: {}
+[10.766569] (-) TimerEvent: {}
+[10.874656] (-) TimerEvent: {}
+[10.978989] (-) TimerEvent: {}
+[11.081217] (-) TimerEvent: {}
+[11.216344] (-) TimerEvent: {}
+[11.319748] (-) TimerEvent: {}
+[11.421320] (-) TimerEvent: {}
+[11.530494] (-) TimerEvent: {}
+[11.636494] (-) TimerEvent: {}
+[11.742318] (-) TimerEvent: {}
+[11.851576] (-) TimerEvent: {}
+[11.968273] (-) TimerEvent: {}
+[12.073446] (-) TimerEvent: {}
+[12.179472] (-) TimerEvent: {}
+[12.285072] (-) TimerEvent: {}
+[12.388268] (-) TimerEvent: {}
+[12.497939] (-) TimerEvent: {}
+[12.604020] (-) TimerEvent: {}
+[12.707515] (-) TimerEvent: {}
+[12.812250] (-) TimerEvent: {}
+[12.916237] (-) TimerEvent: {}
+[13.019273] (-) TimerEvent: {}
+[13.123246] (-) TimerEvent: {}
+[13.227692] (-) TimerEvent: {}
+[13.329126] (-) TimerEvent: {}
+[13.430785] (-) TimerEvent: {}
+[13.538825] (-) TimerEvent: {}
+[13.662707] (-) TimerEvent: {}
+[13.766291] (-) TimerEvent: {}
+[13.871882] (-) TimerEvent: {}
+[13.978126] (-) TimerEvent: {}
+[14.090443] (-) TimerEvent: {}
+[14.192387] (-) TimerEvent: {}
+[14.301344] (-) TimerEvent: {}
+[14.406460] (-) TimerEvent: {}
+[14.510695] (-) TimerEvent: {}
+[14.614190] (-) TimerEvent: {}
+[14.714832] (-) TimerEvent: {}
+[14.816171] (-) TimerEvent: {}
+[14.922478] (-) TimerEvent: {}
+[15.027473] (-) TimerEvent: {}
+[15.135989] (-) TimerEvent: {}
+[15.241953] (-) TimerEvent: {}
+[15.345792] (-) TimerEvent: {}
+[15.449976] (-) TimerEvent: {}
+[15.552223] (-) TimerEvent: {}
+[15.654021] (-) TimerEvent: {}
+[15.757114] (-) TimerEvent: {}
+[15.862742] (-) TimerEvent: {}
+[15.967236] (-) TimerEvent: {}
+[16.072800] (-) TimerEvent: {}
+[16.176402] (-) TimerEvent: {}
+[16.278316] (-) TimerEvent: {}
+[16.421053] (-) TimerEvent: {}
+[16.521386] (-) TimerEvent: {}
+[16.623929] (-) TimerEvent: {}
+[16.729653] (-) TimerEvent: {}
+[16.831247] (-) TimerEvent: {}
+[16.937477] (-) TimerEvent: {}
+[17.040152] (-) TimerEvent: {}
+[17.143419] (-) TimerEvent: {}
+[17.251454] (-) TimerEvent: {}
+[17.377451] (-) TimerEvent: {}
+[17.478452] (-) TimerEvent: {}
+[17.594504] (-) TimerEvent: {}
+[17.702423] (-) TimerEvent: {}
+[17.813512] (-) TimerEvent: {}
+[17.923991] (-) TimerEvent: {}
+[18.028930] (-) TimerEvent: {}
+[18.133468] (-) TimerEvent: {}
+[18.241890] (-) TimerEvent: {}
+[18.342501] (-) TimerEvent: {}
+[18.463656] (-) TimerEvent: {}
+[18.566862] (-) TimerEvent: {}
+[18.676669] (-) TimerEvent: {}
+[18.779920] (-) TimerEvent: {}
+[18.883928] (-) TimerEvent: {}
+[18.984555] (-) TimerEvent: {}
+[19.092695] (-) TimerEvent: {}
+[19.194449] (-) TimerEvent: {}
+[19.295362] (-) TimerEvent: {}
+[19.403919] (-) TimerEvent: {}
+[19.508070] (-) TimerEvent: {}
+[19.609783] (-) TimerEvent: {}
+[19.713947] (-) TimerEvent: {}
+[19.834249] (-) TimerEvent: {}
+[19.935643] (-) TimerEvent: {}
+[20.037753] (-) TimerEvent: {}
+[20.153185] (-) TimerEvent: {}
+[20.258050] (-) TimerEvent: {}
+[20.371590] (-) TimerEvent: {}
+[20.473305] (-) TimerEvent: {}
+[20.575054] (-) TimerEvent: {}
+[20.676603] (-) TimerEvent: {}
+[20.791449] (-) TimerEvent: {}
+[20.898622] (-) TimerEvent: {}
+[21.001753] (-) TimerEvent: {}
+[21.102581] (-) TimerEvent: {}
+[21.209563] (-) TimerEvent: {}
+[21.312207] (-) TimerEvent: {}
+[21.416866] (-) TimerEvent: {}
+[21.529073] (-) TimerEvent: {}
+[21.632520] (-) TimerEvent: {}
+[21.745412] (-) TimerEvent: {}
+[21.851902] (-) TimerEvent: {}
+[21.955915] (-) TimerEvent: {}
+[22.067686] (-) TimerEvent: {}
+[22.169209] (-) TimerEvent: {}
+[22.274010] (-) TimerEvent: {}
+[22.408379] (-) TimerEvent: {}
+[22.510012] (-) TimerEvent: {}
+[22.610636] (-) TimerEvent: {}
+[22.712985] (-) TimerEvent: {}
+[22.823787] (-) TimerEvent: {}
+[22.928087] (-) TimerEvent: {}
+[23.029953] (-) TimerEvent: {}
+[23.137653] (-) TimerEvent: {}
+[23.249965] (-) TimerEvent: {}
+[23.352130] (-) TimerEvent: {}
+[23.453178] (-) TimerEvent: {}
+[23.556906] (-) TimerEvent: {}
+[23.659591] (-) TimerEvent: {}
+[23.761424] (-) TimerEvent: {}
+[23.862356] (-) TimerEvent: {}
+[23.968153] (-) TimerEvent: {}
+[24.076726] (-) TimerEvent: {}
+[24.187770] (-) TimerEvent: {}
+[24.290417] (-) TimerEvent: {}
+[24.392627] (-) TimerEvent: {}
+[24.496312] (-) TimerEvent: {}
+[24.598723] (-) TimerEvent: {}
+[24.700758] (-) TimerEvent: {}
+[24.741993] (mycobot_system_tests) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable arm_gripper_loop_controller\x1b[0m\n'}
+[24.801260] (-) TimerEvent: {}
+[24.906945] (-) TimerEvent: {}
+[25.017271] (-) TimerEvent: {}
+[25.119122] (-) TimerEvent: {}
+[25.226352] (-) TimerEvent: {}
+[25.330954] (-) TimerEvent: {}
+[25.431557] (-) TimerEvent: {}
+[25.532835] (-) TimerEvent: {}
+[25.577426] (mycobot_system_tests) StdoutLine: {'line': b'[100%] Built target arm_gripper_loop_controller\n'}
+[25.636098] (-) TimerEvent: {}
+[25.738460] (-) TimerEvent: {}
+[25.764113] (mycobot_system_tests) CommandEnded: {'returncode': 0}
+[25.764334] (mycobot_system_tests) JobProgress: {'identifier': 'mycobot_system_tests', 'progress': 'install'}
+[25.840670] (-) TimerEvent: {}
+[25.848415] (mycobot_system_tests) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests'], 'cwd': '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'my_note', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LIBGL_ALWAYS_SOFTWARE': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/my_note', 'OLDPWD': '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/scripts', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2195', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'my_note', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'my_note', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ubuntu24:@/tmp/.ICE-unix/2139,unix/ubuntu24:/tmp/.ICE-unix/2139', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bfc99c51_832f_4cbc_9065_7fa2c33095a4', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.O50S92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.114', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'IGN_GAZEBO_RESOURCE_PATH': '/opt/ros/jazzy/share', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests', 'QT_QPA_PLATFORM': 'xcb', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[25.909000] (mycobot_system_tests) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.942055] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/scripts\n'}
+[25.942193] (-) TimerEvent: {}
+[25.952618] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/scripts/arm_gripper_loop_controller.py\n'}
+[25.952751] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/src\n'}
+[25.952789] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/src/arm_gripper_loop_controller.cpp\n'}
+[25.952821] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller\n'}
+[25.972685] (mycobot_system_tests) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller" to ""\n'}
+[25.972844] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller.py\n'}
+[25.972887] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/ament_index/resource_index/package_run_dependencies/mycobot_system_tests\n'}
+[25.972923] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/ament_index/resource_index/parent_prefix_path/mycobot_system_tests\n'}
+[25.972964] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.sh\n'}
+[25.972995] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.dsv\n'}
+[25.973025] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.sh\n'}
+[25.973055] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.dsv\n'}
+[25.973084] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.bash\n'}
+[25.973114] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.sh\n'}
+[25.973144] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.zsh\n'}
+[25.973174] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.dsv\n'}
+[25.973203] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/package.dsv\n'}
+[25.973231] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/ament_index/resource_index/packages/mycobot_system_tests\n'}
+[25.973262] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig.cmake\n'}
+[25.973290] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig-version.cmake\n'}
+[25.973320] (mycobot_system_tests) StdoutLine: {'line': b'-- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/package.xml\n'}
+[26.035483] (mycobot_system_tests) CommandEnded: {'returncode': 0}
+[26.046560] (-) TimerEvent: {}
+[26.112753] (mycobot_system_tests) JobEnded: {'identifier': 'mycobot_system_tests', 'rc': 0}
+[26.113104] (-) EventReactorShutdown: {}

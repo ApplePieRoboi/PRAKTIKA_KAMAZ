@@ -1,0 +1,27 @@
+[0.095s] Invoking command in '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests -- -j12 -l12
+[0.663s] [100%] Built target arm_gripper_loop_controller
+[0.823s] Invoked command in '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests -- -j12 -l12
+[0.864s] Invoking command in '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests
+[0.936s] -- Install configuration: ""
+[0.936s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/scripts
+[0.936s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/scripts/arm_gripper_loop_controller.py
+[0.936s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/src
+[0.936s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/src/arm_gripper_loop_controller.cpp
+[0.937s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller
+[0.937s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/lib/mycobot_system_tests/arm_gripper_loop_controller.py
+[0.938s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/ament_index/resource_index/package_run_dependencies/mycobot_system_tests
+[0.938s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/ament_index/resource_index/parent_prefix_path/mycobot_system_tests
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.sh
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/environment/ament_prefix_path.dsv
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.sh
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/environment/path.dsv
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.bash
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.sh
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.zsh
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/local_setup.dsv
+[0.939s] -- Installing: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/package.dsv
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/ament_index/resource_index/packages/mycobot_system_tests
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig.cmake
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/cmake/mycobot_system_testsConfig-version.cmake
+[0.939s] -- Up-to-date: /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/install/mycobot_system_tests/share/mycobot_system_tests/package.xml
+[0.988s] Invoked command in '/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-5e8581de845777f012e7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "mycobot_system_tests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_gripper_loop_controller::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_gripper_loop_controller-31d75e05758f40da239c.json",
+					"name" : "arm_gripper_loop_controller",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mycobot_system_tests_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mycobot_system_tests_uninstall-80b453cbdc4314884a5d.json",
+					"name" : "mycobot_system_tests_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b5b90e9c2fe02ac37292.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests/build/mycobot_system_tests",
+		"source" : "/home/my_note/ros2_ws/src/mycobot_ros2/mycobot_system_tests"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
